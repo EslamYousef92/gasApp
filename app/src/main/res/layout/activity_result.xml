@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/recommendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommend" />
+    <Button
+        android:id="@+id/gazPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaz Price" />
+
+    <EditText
+        android:id="@+id/gazTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gaz Price"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+</LinearLayout>
